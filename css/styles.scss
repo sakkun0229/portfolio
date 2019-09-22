@@ -1,0 +1,75 @@
+$bk: #3d3d3b;
+$bl: #4c5870;
+$wh: #ebedec;
+$gr: #a2a9af;
+
+body {
+  overflow-x: hidden;
+  color: $bk;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+// Navbar
+.navbar {
+  // background: rgba(0, 0, 0, 0.5)!important;
+  background: $bk!important;
+}
+
+
+// Home section
+#home {
+  background-color: $bl;
+  color: $wh;
+  height: 550px;
+  
+}
+
+
+// Skill
+.skill {
+  background-color: $wh;
+}
+.lngs {
+  // display: flex;
+  // justify-content: space-around;
+}
+.lng-wrapper {
+  // width: 33%;
+  padding: 30px 10px;
+  // background: pink;
+}
+.lng {
+  border: solid;
+  border-radius: 10px;
+}
+
+
+
+// About
+.about {
+  background-color: $gr;
+  height: 500px;
+  // padding-top: 100px;
+}
+
+
+// Contact
+.contact {
+  background-color: $wh;
+  // padding-top: 100px;
+  .container {
+    max-width: 800px;
+  }
+}
+
+
+// Footer
+footer {
+  background-color: #3d3d3b;
+  color: #ebedec;
+  // height: 120px;
+}

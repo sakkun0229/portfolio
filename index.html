@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav">
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <h1>
+        <a class="navbar-brand" href="#">Navbar</a>
+      </h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="container">
+      <h2>Home</h2>
+      <p>hoge hoge hoge hoge hoge hogehoge hogehoge hogehoge hogehoge hoge</p>
+    </div>
+  </section>
+
+
+  <!-- Skill -->
+  <section class="skill" id="skill">
+    <div class="container">
+      <h3 class="text-center">Skill</h3>
+      
+      <div class="row text-center lngs">
+        <div class="lng-wrapper col-md-4">
+          <div class="lng p-4">
+            <h4>HTML, CSS</h4>
+            <p>hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge</p>
+          </div>
+        </div>
+        <div class="lng-wrapper col-md-4">
+          <div class="lng p-4">
+            <h4>JavaScript</h4>
+            <p>hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge</p>
+          </div>
+        </div>
+        <div class="lng-wrapper col-md-4">
+          <div class="lng p-4">
+            <h4>Ruby, Rails</h4>
+            <p>hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge</p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center lngs">
+        <div class="lng-wrapper col-md-1 d-none d-md-block"></div>
+        <div class="lng-wrapper col-md-4">
+          <div class="lng p-4">
+            <h4>Vue</h4>
+            <p>hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge</p>
+          </div>
+        </div>
+        <div class="lng-wrapper col-md-2 d-none d-md-block"></div>
+        <div class="lng-wrapper col-md-4">
+          <div class="lng p-4">
+            <h4>Git</h4>
+            <p>hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge</p>
+          </div>
+        </div>
+        <div class="lng-wrapper col-md-1 d-none d-md-block"></div>
+      </div>
+
+      <p class="mt-5 text-center">
+        PHP(wordpress, Laravel)とかTypeScriptあたりも出来るようにしていきたい。
+      </p>
+    </div>
+  </section>
+
+  
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <h3>About</h3>
+      <p>hoge hoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hoge</p>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h3 class="text-center mb-4">Contact</h3>
+      <form id="googleform">
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input type="text" class="form-control" id="nameInput" name="entry.1911405073" required>
+        </div>
+        <div class="form-group">
+          <label for="emailInput">Email</label>
+          <input type="email" class="form-control" id="emailInput" name="entry.1152007801" required>
+        </div>
+        <div class="form-group">
+          <label for="msgInput">Message</label>
+          <textarea class="form-control" id="msgInput"  rows="4" name="entry.1167241958" required></textarea>
+        </div>
+        <div class="text-center">
+          <input class="btn btn-outline-secondary" type="submit" value="Send">
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center p-5">
+      &copy; 2019 Takahisa Sakuma
+    </div>
+  </footer>
+  
+  <!-- JS -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  
+
+</body>
+</html>
